@@ -17,6 +17,12 @@ public class Department implements  Component {
         return name;
     }
 
+
+    @Override
+    public List<Component> list() {
+        return list;
+    }
+
     @Override
     public Integer sumWage() {
         int i = 0;

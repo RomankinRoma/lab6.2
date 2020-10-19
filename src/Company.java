@@ -21,6 +21,12 @@ public class Company implements Component{
         return null;
     }
 
+
+    @Override
+    public List<Component> list() {
+        return components;
+    }
+
     @Override
     public Integer sumWage() {
         int i = 0;

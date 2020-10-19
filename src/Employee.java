@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Employee implements Component{
     Integer wage;
     EmployeeType type;
@@ -25,6 +27,11 @@ public class Employee implements Component{
 
     @Override
     public String nameDep() {
+        return null;
+    }
+
+    @Override
+    public List<Component> list() {
         return null;
     }
 

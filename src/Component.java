@@ -1,5 +1,8 @@
+import java.util.List;
+
 public interface Component {
     String nameDep();
+    List<Component> list();
     Integer sumWage();
     Integer sumEmployee();
     Integer sumDepartment();
